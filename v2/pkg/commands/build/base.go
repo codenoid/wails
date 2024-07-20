@@ -396,7 +396,7 @@ Please reinstall by doing the following:
 		return nil
 	}
 
-	args := []string{"--best", "--no-color", "--no-progress", options.CompiledBinary}
+	args := []string{"-1", "--no-color", "--no-progress", options.CompiledBinary}
 
 	if options.CompressFlags != "" {
 		args = strings.Split(options.CompressFlags, " ")
